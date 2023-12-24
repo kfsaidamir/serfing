@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#section {
+    width: 100%;
+    height: 110vh;
+    background-image: url(img/back.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 100px;
+}
+header {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    width: 100%;
+    height: 20vh;
+    padding: 10px 100px;
+}
+
+nav > a {
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.text {
+    width: 40%;
+    margin: 150px auto;
+}
+.text > p {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.vector {
+    width: 4%;
+    margin: 210px auto;
+}
+
+#section2 {
+    width: 100%;
+    height: max-content;
+}
+
+.h1 {
+    position: relative;
+    margin: 190px auto;
+    width: max-content;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.h1 > img {
+    bottom: -200%;
+    position: absolute;
+    right: -7%;
+}
+
+.h1 > h1 {
+    font-size: 48px;
+    color: rgba(1, 53, 62, 1);
+}
+
+
+.text1 > p {
+    font-size: 18px;
+}
+
+.overal {
+    gap: 30px;
+    display: flex;
+    align-items: baseline;
+}
+
+#section3 {
+    width: 100%;
+    height: 80px;
+    padding: 10px 100px;
+}
+
+.h1 > h1 {
+    font-size: 48px;
+    color: rgba(1, 53, 62, 1)
+}
+
+#section2 {
+    padding: 10px 100px;
+}
+
+.overal2 {
+    align-items:center;
+    display: flex;
+    gap: 10px;
+}
+
+.overal2 > p {
+    color: rgba(36, 33, 33, 1);
+    font-size: 24px;
+}
+
+.box {
+    width: 400px;
+}
+
+.p {
+    margin-top: 20px;
+}
+
+.p > p {
+    font-size: 16px;
+    color: rgba(36, 33, 33, 1);
+}
+
+.main {
+    display: flex;
+    align-items: baseline;
+    gap: 50px;
+}
+
+.text2 {
+        margin-top: 90px;
+}
+
+.text2 > p {
+    font-size: 16px;
+    color: rgba(36, 33, 33, 1);
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+}
+
+.boss {
+    margin: 20px;
+}
