@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #section {
@@ -24,7 +24,7 @@ header {
 
 nav > a {
     margin: 20px;
-    font-size: 20px;
+    font-size: 15.5px;
     text-decoration: none;
     color: white;
 }
@@ -41,18 +41,19 @@ nav > a {
 }
 
 .text {
-    width: 40%;
-    margin: 150px auto;
+    margin-top: 90px;
+    width: 100%;
+    text-align: center;
 }
 .text > p {
     margin-top: 20px;
-    font-size: 20px;
     text-align: center;
+    font-size: 20px;
 }
 
 .vector {
     width: 4%;
-    margin: 210px auto;
+    margin: 120px auto;
 }
 
 #section2 {
@@ -62,7 +63,7 @@ nav > a {
 
 .h1 {
     position: relative;
-    margin: 190px auto;
+    margin: 90px auto;
     width: max-content;
     height: 20px;
     display: flex;
@@ -76,13 +77,16 @@ nav > a {
 }
 
 .h1 > h1 {
-    font-size: 48px;
+    font-size: 45px;
     color: rgba(1, 53, 62, 1);
 }
 
 
 .text1 > p {
-    font-size: 18px;
+    width: 80%;
+    color: rgba(36, 33, 33, 1);
+    line-height: 23px;
+    font-size: 16px;
 }
 
 .overal {
@@ -153,3 +157,112 @@ nav > a {
 .boss {
     margin: 20px;
 }
+
+.wave3 {
+    gap: 40px;
+    margin-top: 90px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.picture > img {
+    width: 760px;
+    height: 680px;
+}
+
+.center {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.center > img {
+    right: 4%;
+    position: absolute;
+    bottom: -10%;
+}
+
+.center > h1 {
+    margin-top: 35px;
+    font-size: 42px;
+    color: rgba(1, 53, 62, 1);
+}
+
+.top > p {
+    margin-top: 90px;
+    color: rgba(36, 33, 33, 1);
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.photo {
+    margin: 50px;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.photo > img {
+    bottom: -80%;
+    position: absolute;
+    right: 38%;
+}
+
+.nav > a {
+    color: rgba(36, 33, 33, 1);
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+span {
+    color: rgba(0, 178, 160, 1);
+}
+
+.humans {
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+.main4 {
+    margin-bottom: 20px;
+    gap: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.main3 {
+    margin-top: 5px;
+}
+
+.main2{
+    margin-top: 20px;
+    gap: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.a {
+    padding:  10px 100px;
+    border:1px solid rgb(177, 175, 175);   
+    margin-top: 30px;
+    right: 42%;
+    position: absolute;
+}
+
+.a > a {
+    color: rgba(36, 33, 33, 1);
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
